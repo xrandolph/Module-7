@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+</head>
+<body>
+  <h1>Login</h1>
+
+  <form id="login" autocomplete="off">
+    <div>
+      <label>Username</label>
+      <input id="username" type="text" />
+    </div>
+
+    <div>
+      <label>Password</label>
+      <input id="password" type="password" />
+    </div>
+
+    <button type="button" id="loginBtn">Login</button>
+  </form>
+
+  <p>
+    Not registered?
+    <a href="registration.html">Click here to register</a>
+  </p>
+
+  <hr />
+
+  <button id="statusBtn" type="button">Display Status</button>
+  <div id="status"></div>
+
+  <div id="error"></div>
+
+  <script src="scripts/login.js"></script>
+</body>
+</html>
